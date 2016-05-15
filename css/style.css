@@ -8,6 +8,7 @@ nav {
 	width: 100%;
 	display:inline;
 	text-align: right;
+	float: right;
 
 }
 /* Heading section*/
@@ -15,24 +16,12 @@ header{
 	background-color:pink;
 float:left;
 margin: 0;
-color:white;
 width: 100%;
 font-style: italic;
 }
 
-li {
-    float: right;
-}
 
-nav li{
-	display:inline;
-	float:left;
-	background:white;
-	text-align: center;
-    text-decoration: none;
-}
-
-li a {
+a {
     display: block;
     color: red;
     text-align: center;
