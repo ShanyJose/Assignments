@@ -22,11 +22,25 @@ header nav {
 	float: right;
   display:inline;
   width: 100%;
-	}
-/* Heading section*/
-
-a {
   color: white;
+	}
+  @media screen and (max-width: 468px) {
+    #menu_btn {display:none;}
+
+}
+
+@media screen and (min-width:)
+{
+#menu_btn{display: block;}
+}
+
+
+/* Heading section*/
+.dropdownMenu1{
+  position: relative;
+}
+a {
+  color:#FFFFFF	 ;
   text-align: right;
   text-decoration: none;
 
@@ -69,7 +83,6 @@ h1{
   	margin-left: auto;
     margin-right: auto;
   }
-
 footer{
 background-color: #cccccc;
 	text-align: right;
